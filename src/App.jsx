@@ -237,9 +237,13 @@ function App() {
       </header>
 
       <div className="main-content">
-        <Card className="filter-card" bordered={false}>
-          <Title level={4}>Báo Cáo Cuối Tháng (DVR Gửi Chỉ Huy Đội)</Title>
-          
+     <Card className="filter-card" bordered={false}>
+  <div className="filter-header">
+    <Title level={4} className="filter-header-title">
+      BÁO CÁO CUỐI THÁNG (DVR GỬI CHỈ HUY ĐỘI)
+    </Title>
+            </div>
+
           <div className="filter-section">
             <div className="filter-row">
               <div className="filter-item">
